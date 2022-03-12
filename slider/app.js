@@ -6,6 +6,6 @@ const imageURL = ['https://pixabay.com/get/gc6d7d6e0e00d043334ea288b2d1710391e66
 let index = 0;
 
 setInterval(() => {
-    document.getElementById('slider').src = imageURL[index++];
+    document.getElementById('slider').setAttribute('src', imageURL[index++]);
     if (index === imageURL.length) index = 0;
 }, 1500)
