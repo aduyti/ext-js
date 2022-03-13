@@ -14,5 +14,4 @@ const changeSlider = position => {
     if (index === imageURL.length) index = 0;
     console.log(index);
     document.getElementById('slider').setAttribute('src', imageURL[index]);
-
 }
